@@ -1,5 +1,6 @@
 body{
-    width: 100%;
+    max-width:100%;
+    overflow-x: hidden;
     height: 100%;
     margin: 0;
 }
@@ -120,19 +121,31 @@ transform: scaleX(1);
     background: white;
 }
 .zoominto{
-    height: 200vh;
-    width: 100%;
-    background: white;
+    position: relative;
+    height: 100vh !important;
+    /* width: 100%; */
+    background: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .zoom{
-    height: 50vh;
-    overflow: hidden;
-  background-image: url(./source/logo.png);
-  background-size: 100% 100%;
-  background-position: top center
+    /* background-image: url('/source/logo.png'); */
+    color: #F49414;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40vh;
+    letter-spacing: 1vw;
+    margin-bottom: auto;
+    max-height: 100vh !important;
+    max-width: 100wh !important;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-size: 10% 10%;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* width: 100%; */
 }
 .WWD{
     height: 500vh;
