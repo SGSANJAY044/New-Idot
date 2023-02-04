@@ -37,6 +37,7 @@ window.addEventListener('scroll',()=>{
     document.getElementById("WWD-EH5").style.top=`${(window.scrollY)-7150}px`
   }
 })
+
 // document.getElementById("Z").style.display='none'
 // window.onscroll = function() {
 //   var img = document.getElementById("WWD");
