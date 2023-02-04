@@ -12,7 +12,7 @@ body{
     height: 4rem;
     display: flex;
     width: 100%;
-    position: relative;
+    position: absolute;
    align-items: center;
    justify-content: center;
     top:0;
@@ -76,7 +76,7 @@ h1 {
     left: 50%;
     transform: translateX(-50%);
     color: white;
-    background:url('/source/back.jpg');
+    background:url('/source/rock.jpeg');
      background-size: auto 200%;
     background-clip: text;
     text-fill-color: transparent;
@@ -148,7 +148,7 @@ transform: scaleX(1);
     /* width: 100%; */
 }
 .WWD{
-    height: 500vh;
+    height: 1000vh;
     width: 100%;
     background: linear-gradient(126.92deg, #F49414 -1.1%, #FFAD40 97.08%);;
 }
@@ -161,16 +161,30 @@ font-weight: 900;
 font-size: 7rem;
 line-height: 155px;
 color: #FFFFFF;
-
+margin-bottom: 20%;
 opacity: 0.8;
 }
 .WWD-E{
-    height: 100%;
+    height: 15%;
     display: flex;
     width: 100%;
-    /* justify-content: center; */
+    justify-content: center;
+    position: relative;
 }
 .WWD-E>img{
-    height: 50vh;
+    height: 60vh;
     position: absolute;
+    top:0;
+}
+.WWD-EH{
+    font-family: 'Montserrat',sans-serif;
+font-style: normal;
+font-weight: 1000;
+font-size: 9rem;
+line-height: 155px;
+color: #FFFFFF;
+opacity: 0.8;
+width: 100%;
+position: absolute;
+text-align: center;
 }
